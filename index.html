@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Smart Expense Splitter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>💰 Smart Expense Splitter</h2>
+
+    <div class="row">
+      <input id="membersInput" placeholder="Enter members separated by commas (e.g. Alice, Bob, Charlie)" />
+      <button id="addMembersBtn">Add Members</button>
+    </div>
+
+    <div class="row">
+      <input id="amountInput" type="number" placeholder="Amount (₹)" />
+      <select id="payerSelect"></select>
+      <button id="addExpenseBtn">Add Expense</button>
+    </div>
+
+    <h3>Expenses</h3>
+    <ul id="expenseList"></ul>
+
+    <h3>Balances</h3>
+    <ul id="balanceList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
